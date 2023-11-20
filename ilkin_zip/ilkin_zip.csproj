@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\Assets\.idea\inspectionProfiles\profiles_settings.xml" />
+    <Content Include="wwwroot\Assets\.idea\misc.xml" />
+    <Content Include="wwwroot\Assets\.idea\modules.xml" />
+    <Content Include="wwwroot\Assets\.idea\workspace.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Assets\.idea\stories.iml" />
+    <None Include="wwwroot\Assets\css\.DS_Store" />
+    <None Include="wwwroot\Assets\css\bootstrap\.DS_Store" />
+    <None Include="wwwroot\Assets\css\css\.DS_Store" />
+    <None Include="wwwroot\Assets\fonts\.DS_Store" />
+    <None Include="wwwroot\Assets\fonts\flaticon\.DS_Store" />
+    <None Include="wwwroot\Assets\fonts\ionicons\fonts\.DS_Store" />
+    <None Include="wwwroot\Assets\images\.DS_Store" />
+    <None Include="wwwroot\Assets\js\.DS_Store" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
